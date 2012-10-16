@@ -1,0 +1,13 @@
+This is a simple kth-order Markov generator. It is not implemented as efficiently as it could be, and it does not (yet) separate by sentences.
+
+The executable expects two things:
+  1) A number of words you want it to produce.
+  2) A starting sentence to seed it with.
+
+If your sentence is of k words, you will create a kth order Markov generator.
+
+The executable will then read all input from stdin as its training material.
+
+For instance,
+
+  ./Markov 100 We the People < constitution.txt

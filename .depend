@@ -1,0 +1,2 @@
+Markov.o: Markov.cpp Markov.h
+main.o: main.cpp Markov.h
